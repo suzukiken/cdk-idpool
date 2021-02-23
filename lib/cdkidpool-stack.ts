@@ -11,7 +11,7 @@ export class CdkidpoolStack extends cdk.Stack {
 
   constructor(scope: cdk.Construct, id: string, props: CdkidpoolStackProps) {
     super(scope, id, props)
-    
+
     const GOOGLE_CLIENT_ID = "<xxxx.apps.googleusercontent.com>" // replace <xxxx.apps.googleusercontent.com> with real client id.
     const NAME_PREFIX = "cdkidpool-" + props.stage + "-"
 
