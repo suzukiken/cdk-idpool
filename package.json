@@ -22,8 +22,6 @@
   "dependencies": {
     "@aws-cdk/aws-cognito": "^1.90.1",
     "@aws-cdk/aws-iam": "^1.90.1",
-    "@aws-cdk/aws-kms": "^1.90.1",
-    "@aws-cdk/aws-secretsmanager": "^1.90.1",
     "@aws-cdk/core": "^1.90.1",
     "source-map-support": "^0.5.16"
   }
